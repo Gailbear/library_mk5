@@ -4,3 +4,15 @@ Yes, the database is still called "library_mk4".
 No, I will probably not change it.
 
 We probably won't put instructions out for this version.
+
+=== Now with added docker
+
+1. `docker-compose build`
+2. `docker-compose up -d`
+3. `docker exec -it library_mk5_web_1 bash`
+4. `rake db:create db:migrate`
+5. `exit`
+6. `docker-compose down`
+7. `docker-compose up -d`
+8. Navigate to /admin/events and add an event
+9. Refresh the page, everything should be better now
