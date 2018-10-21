@@ -14,3 +14,14 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# ignore precompiled public assets
+/public/assets/application*
+/public/assets/arisia_logo*
+/public/assets/bootstrap/
+/public/assets/c2e2*
+/public/assets/eccc*
+/public/assets/pax*
+/public/assets/shux*
+/public/assets/tabletop*
+/public/assets/manifest*
