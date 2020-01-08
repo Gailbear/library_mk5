@@ -16,3 +16,7 @@ We probably won't put instructions out for this version.
 7. `docker-compose up -d`
 8. Navigate to /admin/events and add an event
 9. Refresh the page, everything should be better now
+
+==== Notes
+
+might need this solution: https://stackoverflow.com/questions/58763542/pginvalidparametervalue-error-invalid-value-for-parameter-client-min-messag

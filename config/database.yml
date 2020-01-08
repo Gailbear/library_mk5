@@ -8,6 +8,7 @@ default: &default
   timeout: 5000
   host: db
   username: postgres
+  min_messages: error
 
 development:
   <<: *default
